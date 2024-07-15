@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="main" fetch="https://github.com/xlwnx" />
+  
+  <!-- /* device specific */ -->
+
+  <!-- device -->
+  <project path="device/samsung/m12" name="device_samsung_m12.git" remote="main" revision="main" />
+
+  <!-- vendor -->
+  <project path="vendor/samsung/m12" name="vendor_samsung_m12.git" remote="main" revision="main" />
+
+  <!-- kernel -->
+  <project path="kernel/samsung/m12" name="kernel_samsung_m12.git" remote="main" revision="main" />
+
+</manifest>
