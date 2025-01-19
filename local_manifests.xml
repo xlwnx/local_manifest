@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <remote name="exynos850-dev" fetch="https://github.com/exynos850-dev" clone-depth="1" />
+
+    <!-- Removals -->
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/samsung/m12" name="old_device_samsung_m12" remote="exynos850-dev" revision="lineage-19.1" />
+    <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="LineageOS" revision="lineage-19.1" />
+
+    <!-- Device - Common -->
+    <project path="device/samsung/exynos850-common" name="old_device_samsung_exynos850-common" remote="exynos850-dev" revision="lineage-19.1" />
+
+    <!-- Kernel -->
+    <project path="kernel/samsung/exynos850" name="old_kernel_samsung_exynos850" remote="exynos850-dev" revision="lineage-19.1" />
+
+    <!-- Vendor -->
+
+    <!-- Vendor - Common -->
+    <project path="vendor/samsung/exynos850-common" name="old_vendor_samsung_exynos850-common" remote="exynos850-dev" revision="lineage-19.1" />
+
+</manifest>
